@@ -1,0 +1,31 @@
+{
+  "name": "@xiex-mono-demo/hooks",
+  "version": "0.0.0",
+  "author": "xiexuan-star <xiexuan127@foxmail.com>",
+  "homepage": "https://github.com/xiexuan-star/monorepo-demo#readme",
+  "license": "ISC",
+  "main": "lib/hooks.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiexuan-star/monorepo-demo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@xiex-mono-demo/hooks.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xiexuan-star/monorepo-demo/issues"
+  },
+  "dependencies": {
+    "ramda": "^0.28.0",
+    "vue": "^3.2.38"
+  }
+}

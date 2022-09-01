@@ -1,0 +1,12 @@
+{
+  "name": "@xiex-mono-demo/components",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "peerDependencies": {
+    "naive-ui": "^2.33.2",
+    "vue": "^3.2.38"
+  },
+  "dependencies": {
+    "vue": "^3.2.38"
+  }
+}

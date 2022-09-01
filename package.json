@@ -1,0 +1,13 @@
+{
+  "name": "xiex-mono-demo",
+  "private": true,
+  "packageManager": "^yarn@1.22.0",
+  "workspaces": [
+    "packages/*",
+    "build",
+    "docs"
+  ],
+  "devDependencies": {
+    "lerna": "^5.5.0"
+  }
+}
