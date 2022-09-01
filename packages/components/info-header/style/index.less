@@ -1,0 +1,116 @@
+.c-info-header {
+	@import './iconfont.less';
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 18px;
+	padding: 16px;
+	box-shadow: 0 2px 4px 0 rgba(176, 176, 176, 0.46);
+	background: white;
+
+	&__operation {
+		//
+	}
+
+	&__divider {
+		width: 1px;
+		background: #d5d5d566;
+		align-self: stretch;
+	}
+
+	&__patient {
+		display: flex;
+		gap: 12px;
+		margin-right: 34px;
+
+		&Header {
+			display: flex;
+			vertical-align: bottom;
+			align-items: baseline;
+			gap: 6px;
+
+			&--name {
+				font-size: 20px;
+				font-weight: 700;
+				margin-right: 6px;
+			}
+
+			.n-tag {
+				align-self: flex-start;
+				border-radius: 4px;
+			}
+		}
+	}
+
+	&__info {
+		flex: 1;
+		display: flex;
+		flex-wrap: wrap;
+		overflow: hidden;
+		justify-content: flex-start;
+		height: calc(var(--row-height) * var(--row-num) * 1px);
+
+		font-size: 14px;
+
+		td {
+			text-align: left;
+		}
+
+		.n-descriptions-table-content {
+			padding-bottom: 0 !important;
+			height: calc(var(--row-height) * 1px);
+			vertical-align: middle !important;
+			max-width: calc(var(--column-width) * 1px);
+		}
+
+		.n-descriptions-table-content__label {
+			display: inline-block;
+		}
+	}
+
+	&__setting {
+		display: flex;
+		align-self: flex-start;
+		gap: 8px;
+
+		&Icon {
+			cursor: pointer;
+		}
+
+		.iconfont {
+			font-size: 20px;
+			color: black;
+			display: inline-block;
+			transition: all 0.2s ease-in-out;
+		}
+	}
+
+	&.is-compact {
+		[compact-hidden] {
+			display: none !important;
+		}
+
+		.icon-double_down {
+			transform: rotate(0deg);
+		}
+	}
+	.icon-double_down {
+		transform: rotate(180deg);
+	}
+
+	&__hidden {
+		display: inline-flex;
+		vertical-align: middle;
+		align-items: center;
+		gap: 8px;
+		font-size: 14px;
+
+		&--icon {
+			color: inherit !important;
+			cursor: pointer;
+			font-size: 14px;
+			text-decoration: none !important;
+		}
+	}
+}

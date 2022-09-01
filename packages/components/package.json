@@ -1,12 +1,16 @@
 {
   "name": "@xiex-mono-demo/components",
   "version": "0.0.1",
+  "license": "ISC",
   "main": "index.ts",
   "peerDependencies": {
     "naive-ui": "^2.33.2",
     "vue": "^3.2.38"
   },
   "dependencies": {
-    "vue": "^3.2.38"
-  }
+    "naive-ui": "^2.33.2",
+    "vue": "^3.2.38",
+    "@vueuse/core": "^9.1.1"
+  },
+  "gitHead": "faf397ce5ffd7f7509ec516f5e5f1557adaa4617"
 }

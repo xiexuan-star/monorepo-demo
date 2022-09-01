@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "vite.config.ts",
+    "build/*.ts",
+    "md-plugin.ts",
+    "auto-router-plugin.ts",
+    "insert-console-info.ts"
+  ]
+}

@@ -1,0 +1,77 @@
+.dark-mode {
+	#library {
+		.bg-color(@property) {
+			@{property}: var(--bg-color) !important;
+		}
+		.text-color(@property) {
+			@{property}: var(--text-color) !important;
+		}
+		.border-color(@property) {
+			@{property}: var(--border-color) !important;
+		}
+		.table-header-bg-color(@property) {
+			@{property}: var(--table-header-bg-color) !important;
+		}
+		.gradient-border(@property) {
+			@{property}: linear-gradient(var(--border-color), var(--border-color)),
+				linear-gradient(var(--border-color), var(--border-color)) !important;
+		}
+	}
+
+	.form-render__linebarHeader {
+		#library.table-header-bg-color(background);
+		#library.border-color(border-color);
+	}
+
+	.c-info-header {
+		#library.bg-color(background);
+		box-shadow: 0 2px 4px 0 rgb(120 120 120 / 46%);
+
+		.iconfont {
+			#library.text-color(color);
+		}
+	}
+
+	.vxe-table {
+		#library.text-color(color);
+
+		.ellipsis {
+			#library.text-color(color);
+		}
+	}
+
+	.vxe-header--column {
+		#library.table-header-bg-color(background-color);
+		#library.gradient-border(background-image);
+	}
+
+	.vxe-table--header-wrapper {
+		#library.bg-color(background-color);
+	}
+
+	.vxe-table--body-wrapper {
+		#library.bg-color(background-color);
+	}
+
+	.vxe-body--column {
+		#library.bg-color(background-color);
+		#library.gradient-border(background-image);
+	}
+
+	.vxe-toolbar {
+		#library.bg-color(background);
+	}
+
+	.vxe-table--border-line,
+	.vxe-table--header-border-line {
+		#library.border-color(border-color);
+	}
+
+	::-webkit-scrollbar {
+		#library.bg-color(background);
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		#library.table-header-bg-color(background);
+	}
+}
