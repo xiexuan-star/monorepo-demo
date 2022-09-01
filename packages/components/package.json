@@ -1,6 +1,6 @@
 {
   "name": "@xiex-mono-demo/components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.ts",
   "peerDependencies": {
     "naive-ui": "^2.33.2",
