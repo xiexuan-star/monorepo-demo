@@ -1,12 +1,13 @@
 {
   "name": "@xiex-mono-demo/docs",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version"
   },
   "dependencies": {
     "@vicons/ionicons5": "^0.12.0",
