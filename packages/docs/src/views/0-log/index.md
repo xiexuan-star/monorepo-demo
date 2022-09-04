@@ -1,4 +1,6 @@
 # Cnhis design 业务组件库更新日志 <::title=日志::><::icon=ListOutline::>
+### [0.0.6](https://github.com/xiexuan-star/monorepo-demo/compare/v0.0.3...v0.0.6) (2022-09-04)
+
 ### [3.1.16](http://120.25.59.85:3000/cnhis-frontend/cnhis-design-vue/compare/v3.1.15...v3.1.16) (2022-08-26)
 
 
