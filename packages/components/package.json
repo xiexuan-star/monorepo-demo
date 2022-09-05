@@ -1,6 +1,6 @@
 {
   "name": "@xiex-mono-demo/components",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "license": "ISC",
   "main": "index.ts",
   "peerDependencies": {

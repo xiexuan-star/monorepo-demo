@@ -1,6 +1,6 @@
 {
   "name": "@xiex-mono-demo/shared",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": "xiexuan-star <xiexuan127@foxmail.com>",
   "license": "ISC",
   "main": "lib/shared.js",
