@@ -1,0 +1,12 @@
+{
+  "name": "@xiex-mono-demo/build",
+  "private": true,
+  "version": "0.0.2",
+  "author": "xiexuan-star <xiexuan127@foxmail.com>",
+  "license": "ISC",
+  "main": "gulpfile.ts",
+  "devDependencies": {
+    "@types/gulp": "^4.0.9",
+    "gulp": "^4.0.2"
+  }
+}

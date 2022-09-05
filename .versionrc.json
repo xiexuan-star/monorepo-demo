@@ -1,0 +1,16 @@
+{
+  "infile": "./src/views/0-log/index.md",
+  "changelogHeader": "# Cnhis design 业务组件库更新日志 <::title=日志::><::icon=ListOutline::>",
+  "types": [
+    {
+      "type": "fix",
+      "section": "🐞Bug Fixes | Bug修复"
+    },
+    {
+      "type": "feat",
+      "section": "✨Features | 新功能"
+    }
+  ]
+}
+
+

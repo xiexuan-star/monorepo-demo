@@ -11,11 +11,7 @@ import './styles/index.less';
 
 const app = createApp(App);
 
-Object.entries({
-	DemoCollapse,
-	AnchorList,
-	NAlert
-}).forEach(([name, component]) => app.component(name, component));
+Object.entries({ DemoCollapse, AnchorList, NAlert }).forEach(([name, component]) => app.component(name, component));
 
 useMock();
 
